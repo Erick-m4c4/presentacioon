@@ -1,0 +1,440 @@
+body{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar{
+    width: .5rem;
+    height: auto;
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5rem;
+}
+
+/* --------------------------------------------Portada I------------------------------------------------------------------------------ */
+
+.e2{
+    position: absolute;
+    left: 5%;
+    top: 52%;
+    width: 50%;
+    z-index: 2;
+    font-size: 2rem;
+}
+
+.e2 h2{
+    font-size: 1.5rem;
+}
+
+
+.entrada{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./miniyo.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/* --------------------------------------------Peliculas y comida---------------------------------------------------------------------- */
+
+.pelicula{
+    position: absolute;
+    left: 32%;
+    top: 107%;
+    width: 60%;
+    height: 30%;
+}
+
+.pelicula h2{
+    font-size: 2rem;
+}
+
+.pelicula p{
+    font-size: 1.3rem;
+}
+
+.pelicula ol{
+    font-size: 1.3rem;
+}
+
+.imgfc{
+    position: absolute;
+    left: 5%;
+    top: 107%;
+}
+
+.imgfc img{
+    border-radius:1.9rem;
+}
+
+#rectangulofc{
+    position: absolute;
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: .5rem;
+    transform: rotate(270deg);
+    left: -7%;
+    top: 65%;
+    padding: .7rem .7rem;
+}
+
+#rectangulofc:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Comida */
+
+.comida{
+    position: absolute;
+    left: 5%;
+    top: 195%;
+    width: 60%; 
+    height: 30%;
+    font-size: 1.3rem;
+}
+
+.comida h2{
+    font-size: 2rem;
+}
+
+.imgcd{
+    position: absolute;
+    left: 55%;
+    top: 193%;
+}
+
+.imgcd img{
+    border-radius:1.9rem;
+}
+
+#rectangulocd{
+    position: absolute;
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: .5rem;
+    left: 4%;
+    top: -10%;
+    padding: .7rem .7rem;
+}
+
+#rectangulocd:hover{
+    background-color: black;
+    color: white;
+}
+
+/* -----------------------------------------------Redes Sociales---------------------------------------------------------------------- */
+
+.redessociales{
+    position: absolute;
+    left: 40%;
+    top: 280%;
+    width: 20%;
+    background-color: #D9D9D9;
+    border-radius: 1.3rem;
+    padding: .5rem .5rem;
+}
+
+#insta{
+    position: absolute;
+    left: 7%;
+    transition: transform 500ms;
+}
+
+#git{
+    position: relative;
+    left: 39%;
+    transition: transform 500ms;
+}
+
+#spo{
+    position: absolute;
+    right: 7%;
+    transition: transform 500ms;
+}
+
+.redessociales img:hover{
+    transform: translateY(-.45rem);
+}
+
+.redessociales img:active{
+    transform: scale(.5);
+}
+
+.lineari{
+    position: absolute;
+    top: 286%;
+    left: 12%;
+    width: 25%;
+    height: .7%;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+}
+
+.lineard{
+    position: absolute;
+    top: 286%;
+    right: 12%;
+    width: 25%;
+    height: .7%;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+}
+
+/* -----------------------------------------------Mas sobre mi---------------------------------------------------------------------- */
+
+.moreme{
+    position: absolute;
+    width: 89%;
+    top: 293%;
+    left: 5%;
+}
+
+.moreme h2{
+    font-size: 2rem;
+}
+
+.moreme p{
+    position: relative;
+    left: 2%;
+    font-size: 1.3rem; 
+}
+
+/* -----------------------------------------------Canciones---------------------------------------------------------------------- */
+
+.canciones{
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    top: 323%;
+    left: 5%;
+    background-color: #D9D9D9;
+    color: black;
+    border-radius: 1.9rem;
+}
+
+.canciones h2{
+    position: relative;
+    left: 1%;
+    font-size: 2rem;
+}
+
+.canciones a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.colorcn{
+    position: absolute;
+    top: 23%;
+    right: 3%;
+    width: 37%;
+    height: 70%;
+    border-radius: 1.9rem;
+    color: red;
+    z-index: 5;
+}
+
+#imagencn{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    border-radius: 1.9rem;
+    z-index: 1;
+}
+
+.favpersonaje{
+    position: absolute;
+    top: 380%;
+    left: 5%;   
+}
+
+#tabla{
+    width: 135%;
+    text-align: center;
+    border-radius: 1.5rem;
+}
+
+.favpersonaje th{
+    height: 3rem;
+    width: auto;
+    background-color: #D9D9D9;
+    color: black;
+}
+
+/* Dibujo */
+
+.dibujo{
+    position: absolute;
+    top: 480%;
+    left: 35%;
+    width: 30%;
+    height: 60%;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.cabeza{
+    position: relative;
+    left: 27%;
+    top: 25%;
+    /* display: flex;
+    justify-content: center; */
+    width: 45%;
+    height: 45%;
+    background-color: rgb(255, 203, 211);
+    border-radius: 50%;
+    border: .27rem;
+    border-style: solid;
+    border-color: black;
+}
+
+.ojoi{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 12%;
+    height: 20%;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.ojod{
+    position: absolute;
+    right: 25%;
+    top: 25%;
+    width: 12%;
+    height: 20%;
+    background-color: black;
+    border-radius: 50%; 
+}
+
+.pupila{
+    position: absolute;
+    right: 25%;
+    top: 25%;
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;  
+}
+
+.mejillai{
+    position: absolute;
+    right: 13%;
+    top: 50%;
+    width: 15%;
+    height: 10%;
+    background-color:salmon;
+    border-radius: 50%;
+    transform: rotate(10deg);
+}
+
+.mejillad{
+    position: absolute;
+    left: 13%;
+    top: 50%;
+    width: 15%;
+    height: 10%;
+    background-color:salmon;
+    border-radius: 50%;
+    transform: rotate(350deg);
+}
+
+.nariz{
+    position: absolute;
+    left: 33%;
+    top: 45%;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(255, 203, 211);
+    border-radius: 50%;
+    border: .27rem;
+    border-style: solid;
+    border-color: black;
+}
+
+.narizi{
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    width: 22%;
+    height: 35%;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.narizd{
+    position: absolute;
+    right: 15%;
+    top: 45%;
+    width: 22%;
+    height: 35%;
+    background-color: black;
+    border-radius: 50%; 
+}
+
+.boca{
+    position: absolute;
+    left: 43%;
+    top: 82%;
+    width: 16%;
+    height: 8%;
+    background-color: black;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.temasfav{
+    position: absolute;
+    width: 80%;
+    top: 550%;
+    left: 12%;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 1.9rem;
+    font-family: 'lobster';
+    text-align: center;
+}
+
+.temas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    height: 20rem;
+}
+
+.temas img{
+    margin-top: 5rem;
+}
+
+#php{
+    margin-top: 0rem;
+}
+
+.temas::-webkit-scrollbar{
+    background-color: black;
+}
+
+.temas::-webkit-scrollbar-thumb{
+    background-color: #D9D9D9;
+    border-radius: 5rem;
+}
